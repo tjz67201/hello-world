@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en-US">
 
 <head>
 	<meta charset="utf-8">
@@ -15,6 +14,21 @@
 
 <body>
 
+	<header>
+		<h2>Website Header (Placeholder)</h2>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Our Team</a></li>
+			<li><a href="#">Projects</a></li>
+        	<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<main>
+
     <img src="images/img1.jpg" alt="Depiction of bits formed to appear as a camera lense.">
 
     <br><br>
@@ -26,20 +40,30 @@
 
     <br><br>
 
+	<h2>Text Demo:</h2>
 	<strong>Strong 1</strong>
 	<br>
-	<p>Paragraph text testing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p title="Test title">Paragraph text testing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+		pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+		ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+		occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<br>
 
 	<hr>
 	hr example
 	<hr>
 
 	<br>
+
+	<h2>List Items:</h2>
 	<li>List item 1</li>
 	<li>List item 2</li>
 
 	<br>
+
 	<strong>Ordered List:</strong>
 	<ol>
         <li>Item 1</li>
@@ -48,6 +72,7 @@
     </ol>
 
 	<br>
+
 	<strong>Unordered List:</strong>
 	<ul>
         <li>Item 1</li>
@@ -56,21 +81,137 @@
     </ul>
 
 	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
 	<code>code test</code>
+
 	<br>
+
 	<p>
-	<a href="http://www.google.com">Google</a> search engine.
+	<a href="http://www.google.com" title="Link to Google">Google</a> search engine.
 	</p>
 
 	<p><small>This is an example of small text.</small></p>
 	<p><del>This is an example of del text.</del></p>
 
-	Input first name:
+	<!--
+	<p>Input first name:</p>
 	<input type="text" name="input1">
+	-->
 
-	<button>Change User</button>
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<br>
+
+	<button>Change Username</button>
+
+	<br><br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Description Lists:</h2>
+	<dl>
+		<dt><b>Term 1</b></dt>
+		<dd>Term 1 description.</dd>
+		<dt><b>Term 2</b></dt>
+		<dd>Term 2 description.</dd>
+	</dl>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Blockquote and Inline Quote Examples:</h2>
+	<p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"><cite>MDN blockquote page</cite></a>:</p>
+		
+	<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+		<p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+		  Quotation Element</em>) indicates that the enclosed text is an extended quotation.
+		</p>
+	</blockquote>
+		
+	<p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+		for short quotations that don't require paragraph breaks.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+		<cite>MDN q page</cite></a>.
+	</p>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Abbreviations:</h2>
+	<p>What is <abbr title="Hypertext Markup Language">HTML</abbr>?</p>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Address Example:</h2>
+	<address>
+		<p>
+			Chris Mills<br>
+			Manchester<br>
+			The Grim North<br>
+			UK
+		</p>
+		  
+		<ul>
+			<li>Tel: 01234 567 890</li>
+			<li>Email: me@grim-north.co.uk</li>
+		</ul>
+	</address>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Superscript and Subscript:</h2>
+	<p>The 10<sup>th</sup> of March</p>
+	<p>H<sub>2</sub>O</p>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Computer Code Examples:</h2>
+	<pre>Pre without &lt;code&gt;.</pre>
+	<pre><code>Pre with &lt;code&gt;</code>.</pre>
+	<p>Here is a paragraph example with an in-line <code>&lt;code&gt;</code> element.</p>
+	<p>Enter the following text into command prompt:</p>
+	<pre><kbd>		ping www.google.com</kbd></pre>
+	<p>You should see the following output:</p>
+	<pre>
+		<samp>
+		Pinging www.google.com [172.217.10.228] with 32 bytes of data:
+		Reply from 172.217.10.228: bytes=32 time=19ms TTL=57
+		Reply from 172.217.10.228: bytes=32 time=4ms TTL=57
+		Reply from 172.217.10.228: bytes=32 time=3ms TTL=57
+		Reply from 172.217.10.228: bytes=32 time=3ms TTL=57
+		</samp>
+	</pre>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<h2>Time and Date:</h2>
+	<p><time datetime="2019-09-04">4 September 2019 is now machine readable.</time></p>
+
+	<br>
+
+	<hr> <!--------------------------------------------------------------------------------------------------------------------------------------------->
+
 
 	<script src="scripts/main.js"></script>
+
+	</main>
+
+	<footer>
+		© Copyright 2019 by TJZ67201. All rights reserved.
+	</footer>
 
 </body>
 
