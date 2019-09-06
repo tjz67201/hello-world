@@ -2,7 +2,8 @@ html {
     /*font-size: 14px; /* px means "pixels": the base font size is now 10 pixels high  */
     /*font-family: "Roboto", sans-serif; /* this should be the rest of the output you got from Google fonts */
     font-family: 'Quicksand', sans-serif;
-    color: whitesmoke
+    color: #0f0f0a;
+    background-color: whitesmoke;
 }
 
 img{
@@ -11,16 +12,26 @@ img{
     width: 400px;
 }
 
+header {
+    background-color: #3399ff;
+    color:whitesmoke;
+    width: 100%;
+    padding: 30px;
+}
+
 body {
-    background-color: #262626;
     width: 600px;
     margin: 0 auto;
     padding: 5px solid black;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h4, h5, h6, strong {
     /*color: #ccf2ff;*/
-    color: #b3ccff;
+    color: #3399ff;
+}
+
+h3 { /* Used for Header only */
+    color:whitesmoke;
 }
 
 h1 {
@@ -36,3 +47,5 @@ p, li {
     line-height: 1.8;
     letter-spacing: 1px; 
 }
+
+
